@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012458177570}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012458177570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010115198632}
+  - 82: {fileID: 82000010515239118}
+  - 114: {fileID: 114000013153307176}
+  m_Layer: 0
+  m_Name: Azureflux_StrikeWitches
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010115198632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.478413, y: 0.45829728, z: -19.896593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &82000010515239118
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 875fa77a958f835468d3d40e8e68730f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000013153307176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f73aedeb08ab344b7986a979d1d41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: Azureflux_StrikeWitches
+  Tempo: 143.86
+  Beats: '@315167@332102@349036@357503@366911@372556@389491@408307@421478@430886@438412@444057@463814@480748@493919@506150@513676@519321@527788@537196@554131@563539@572947@590822@608697@623750@640684@653855@673612@683961@701836@716889@728179@739468@747935@757343@773337@786508@800620@820377@831667@848601@861772@875884@904108@921983@936095@948326@968083@979372@996307@1009478@1022649@1032998@1042406@1051814@1068748@1082860@1096972@1114847@1126137@1142131@1154361@1169414@1181644@1197638@1215513@1230566@1243737@1261612@1271961@1287955@1303948@1316179@1326527@1346284@1360396@1376390@1389561@1398969@1409318@1417785@1434719@1448831@1461062@1472351@1481759@1492108@1509043@1523155@1534444@1554201@1565491@1581484@1595596@1608767@1619116@1628524@1638873@1655807@1670860@1683091@1711315@1728249@1742361@1758355@1767763@1786579@1802572@1812921@1830796@1842086@1859961@1876895@1891007@1902297@1910764@1916409@1932403@1942751@1950278@1960627@1966271@1975679@1984147@1989791@2006726@2015193@2023660@2033068@2039654@2049062@2058470@2064115@2073523@2081990@2090457@2098924@2107391@2113036@2124326@2131852@2137497@2152550@2169484@2185478@2194886@2204294@2209939@2219347@2228755@2237222@2246630@2253215@2258860@2268268@2275795@2282380@2302137@2309663@2319071@2326598@2332243@2341651@2351999@2357644@2366111@2375519@2383987@2392454@2400921@2410329@2427263@2445139@2462073@2477126@2492179@2510054@2521343@2540159@2552390@2562739@2569324@2576851@2585318@2594726@2611660@2625772@2638943@2658700@2669049@2685983@2699155@2710444@2721734@2740550@2758425@2774419@2786649@2806406@2815814@2833689@2845919@2858150@2863795@2871321@2879788@2889196@2906131@2919302@2933414@2952230@2963519@2980454@2991743@3006796@3016204@3025612@3035020@3052895@3067007@3079238@3098054@3109343@3126278@3143212@3153561@3163910@3182726@3198719@3212831@3225062@3235411@3245759@3255167@3273983@3287155@3297503@3304089@3313497@3330431@3347366@3360537@3370886@3381235@3391583@3401932@3420748@3435801@3448031@3457439@3466847@3477196@3495071@3511065@3522355@3532703@3550579@3566572@3578803@3593855@3604204@3622079@3640895@3649363@3668179@3679468@3696403'
+  Duration: 82
+  PreviewTime: 55
+  StartTime: 0

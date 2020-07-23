@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012458177570}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012458177570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010115198632}
+  - 82: {fileID: 82000010515239118}
+  - 114: {fileID: 114000013153307176}
+  m_Layer: 0
+  m_Name: PocketBoy_ReformatThePlanet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010115198632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.478413, y: 0.45829728, z: -19.896593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &82000010515239118
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 899388c339b15ca4fb717a5bc2744616, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000013153307176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f73aedeb08ab344b7986a979d1d41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: PocketBoy_ReformatThePlanet
+  Tempo: 136.38
+  Beats: '@88435@102547@116659@130771@143001@151468@164639@198508@212620@225791@239903@253075@261542@274713@286943@296351@309523@323635@335865@349036@362207@370675@384787@397017@404543@417715@430886@441235@452524@460051@472281@480748@493919@505209@527788@540019@555071@569183@580473@589881@602111@637862@650092@665145@678316@689606@699014@711244@725356@733823@746995@760166@774278@788390@800620@810028@823199@835430@843897@856127@870239@880588@890937@897523@910694@919161@931391@944563@952089@1007596@1032998@1055577@1117670@1144012@1165651@1226803@1254086@1274783@1288895@1297363@1336876@1365100@1385798@1447891@1474233@1495871@1508102@1516569@1543852@1557023@1583366@1604063@1665215@1692499@1713196@1725427@1733894@1776230@1802572@1831737@1859020@1887244@1911705@1926758@1934284@2050943@2076345@2090457@2097983@2130911@2145023@2153491@2199590@2208057@2270150@2295551@2309663@2318131@2350118@2365171@2373638@2489356@2516639@2528870@2537337@2568383@2583436@2591903@2616364@2623891@2637062@2645529@2666227@2679398@2693510@2706681@2719852@2734905@2748076@2762188@2775359@2781945@2796057@2830867@2844038@2858150@2867558@2884492@2892959@2907071@2919302@2926828@2939999@2954111@2968223@2981395@2993625@3002092@3016204@3030316@3036902@3050073@3064185@3075475@3085823@3092409@3104639@3112166@3125337@3138508@3146975@3161087@3174259@3187430@3201542@3213772@3222239@3235411@3269279@3283391@3297503@3311615@3322905@3331372@3345484@3359596@3367123@3378412@3392524@3406636@3419807@3432038@3440505@3454617@3467788@3476255@3490367@3504479@3514828@3524236@3530822@3543052@3551519@3564691@3577862@3585388@3601382@3614553@3626783@3639955@3655007@3666297@3681350@3688876@3702047@3708633@3720863@3734975@3750028@3762259@3776371@3789542@3798009@3811180@3818707@3832819@3845990@3859161@3872332@3886444@3898675@3907142@3919372@3926899@3940070@3955123@3968294@3982406@3996518@4010630@4019097@4033209@4040735@4051084@4065196@4079308@4091539@4104710@4118822@4127289@4139519@4147987@4161158@4175270@4188441@4202553@4215724@4227955@4237363@4250534@4258060@4271231@4284403@4297574@4311686@4325798@4340851@4348377@4359667@4369075@4381305@4397299@4408588@4423641@4436812@4449043@4463155'
+  Duration: 107
+  PreviewTime: 10
+  StartTime: 0

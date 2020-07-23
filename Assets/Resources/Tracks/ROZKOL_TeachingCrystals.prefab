@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012458177570}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012458177570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010115198632}
+  - 82: {fileID: 82000010515239118}
+  - 114: {fileID: 114000013153307176}
+  m_Layer: 0
+  m_Name: ROZKOL_TeachingCrystals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010115198632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.478413, y: 0.45829728, z: -19.896593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &82000010515239118
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e71ca5a82bc12ac4fbcdee35e1bc3308, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000013153307176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f73aedeb08ab344b7986a979d1d41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: ROZKOL_TeachingCrystals
+  Tempo: 119.51
+  Beats: '@368087@389726@425476@457463@480043@512030@535550@545899@558129@569419@601406@623985@636215@646564@656913@690782@713361@725591@736881@748171@781099@803678@814027@825316@836606@869534@892113@903403@914692@925982@957969@981489@991838@1003127@1014417@1046404@1068983@1081214@1091563@1103793@1137662@1156478@1168708@1179057@1191287@1224215@1246795@1258084@1267492@1279723@1312651@1335230@1347460@1357809@1369099@1402967@1422724@1435895@1447185@1458475@1491403@1512100@1524331@1536561@1547851@1580779@1602417@1613707@1624996@2861207@2884727@2916715@2937412@2948702@2960932@2972222@3004209@3025847@3038078@3050308@3061598@3093585@3114283@3127454@3138743@3150033@3182961@3204599@3215889@3228119@3238468@3250699@3271396@3293035@3304324@3317495@3328785@3357950@3369239@3381470@3391819@3404049@3415339@3447326@3467083@3481195@3492484@3504715@3534820@3555518@3568689@3579979@3594091@3604439@3627959@3646775@3659006@3671236@3682526@3693815@3716395@3736151@3747441@3759671@3770961@3803889@3825527@3837758@3848107@3860337@3892324@3925252@3949713@3982641@4003339@4015569@4025918@4039089@4070135@4090833@4103063@4115294@4127524@4160452@4181150@4193380@4205611@4215959@4248887@4268644@4281815@4294046@4305335@4317566@4336382@4348612@4359902@4371191@4382481@4395652@4406942@4426699@4447396@4458686@4470916@4482206@4494436@4513252@4537713@4549003@4559351@4570641@4582871@4604510@4626148@4637438@4647787@4660017@4672247@4692945@4714583@4726814@4738103@4748452@4760683@4781380@4792670@4803959@4816190@4826539@4837828@4850059@4869815@4882987@4893335@4904625@4915915@4928145@4938494@4960132@4980830@4992119@5004350@5016580@5026929@5047627@5067383@5081495@5093726@5105015@5116305@5136062@5157700@5170871@5182161@5194391@5204740@5226379@5247076@5260247@5271537@5282827@5293175@5315755@5337393@5348683@5359972@5370321@5393841@5406071@5425828@5438059@5450289@5460638@5471927@5486980@5497329@5506737@5518027@5528375@5538724@5550955@5560363@5574475@5583883@5594231@5602699@5615870@5627159@5638449@5648798@5661028@5672318@5691134'
+  Duration: 129
+  PreviewTime: 73
+  StartTime: 0

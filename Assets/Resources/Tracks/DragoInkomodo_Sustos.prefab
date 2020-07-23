@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012458177570}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012458177570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010115198632}
+  - 82: {fileID: 82000010515239118}
+  - 114: {fileID: 114000013153307176}
+  m_Layer: 0
+  m_Name: DragoInkomodo_Sustos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010115198632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.478413, y: 0.45829728, z: -19.896593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &82000010515239118
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4dd066a2feb8360469f93bf8625efd5c, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000013153307176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f73aedeb08ab344b7986a979d1d41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: DragoInkomodo_Sustos
+  Tempo: 99.22
+  Beats: '@264364@291647@312345@323635@332102@345273@371615@397017@418655@430886@439353@452524@463814@477926@504268@524025@538137@544723@558835@571065@583295@611519@630335@643507@651974@664204@678316@691487@717830@737587@750758@758284@771455@784627@797798@823199@842956@857068@864595@878707@892819@905990@931391@952089@965260@972787@985958@999129@1011359@1036761@1057459@1071571@1079097@1093209@1106380@1119551@1144953@1166591@1179763@1188230@1201401@1214572@1226803@1254086@1273843@1305830@1334995@1362278@1381094@1394265@1401791@1415903@1429075@1442246@1468588@1488345@1501516@1509043@1523155@1536326@1549497@1575839@1596537@1608767@1616294@1630406@1643577@1654867@1704729@1734835@1763059@1788460@1801631@1808217@1822329@1829855@1843967@1855257@1869369@1894771@1906060@1915468@1927699@1934284@1949337@1961567@1975679@2002963@2015193@2022719@2036831@2044358@2056588@2068819@2081990@2095161@2109273@2122444@2129971@2146905@2154431@2161017@2167603@2176070@2190182@2203353@2217465@2230636@2238163@2251334@2258860@2270150@2283321@2296492@2304959@2312486@2323775@2337887@2344473@2357644@2364230@2378342@2384927@2391513@2403743@2419737@2431967@2445139@2451724@2464895@2471481@2484652@2492179@2498764@2512876@2523225@2537337@2551449@2558035@2572147@2579673@2592844@2605075@2619187@2645529@2673753@2685043@2698214@2710444@2724556@2751839@2770655@2783827@2791353@2805465@2817695@2830867@2858150@2876966@2889196@2896723@2910835@2923065@2937177@2964460@2987039@3018086@3044428@3072652@3084883@3092409@3105580@3112166@3125337@3138508@3152620@3179903@3187430@3194015@3201542@3212831@3230707@3238233@3244819@3258931@3287155@3300326@3305971@3322905@3337958@3345484@3352070@3368063@3380294@3393465@3407577@3421689@3432979@3447091@3461203@3476255@3503539@3522355@3534585@3542111@3556223@3569395@3582566@3608908@3628665@3641836@3649363@3664415@3675705@3690758@3715219@3735916@3749087@3756614@3770726@3782956@3797068@3824351@3848812@3876095@3888326@3902438@3929721@3941951@3949478@3964531@3983347@3991814@4008748@4023801@4036031@4048262@4054847@4069900@4076486@4091539@4102828@4116940@4131993@4144223@4157395@4163980@4178092@4184678@4197849@4204435@4210079@4224191@4236422@4244889@4251475@4263705@4271231@4284403@4290988@4297574@4304159@4314508@4331443'
+  Duration: 99
+  PreviewTime: 13
+  StartTime: 0.01

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012458177570}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012458177570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010115198632}
+  - 82: {fileID: 82000010515239118}
+  - 114: {fileID: 114000013153307176}
+  m_Layer: 0
+  m_Name: Eel_EatEverythingOfYou
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010115198632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.478413, y: 0.45829728, z: -19.896593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &82000010515239118
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d91ae054149867544ac1ce197da8e40d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000013153307176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f73aedeb08ab344b7986a979d1d41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: Eel_EatEverythingOfYou
+  Tempo: 119.92
+  Beats: '@275654@628454@982195@1106380@1127078@1149657@1192934@1216454@1237151@1248441@1283251@1304889@1326527@1369804@1381094@1400851@1435660@1461062@1481759@1503398@1547615@1580543@1603123@1635110@1664275@1688735@1715078@1733894@1755532@1777171@1799750@1820447@1832678@1844908@1864665@1877836@1889126@1900415@1909823@1921113@1932403@1954041@1976620@1987910@1999199@2009548@2030246@2041535@2052825@2064115@2076345@2086694@2097983@2117740@2129030@2153491@2163839@2175129@2186419@2207116@2218406@2228755@2241926@2253215@2264505@2274854@2296492@2306841@2329420@2340710@2351059@2362348@2383987@2396217@2406566@2417855@2428204@2439494@2449843@2472422@2483711@2498764@2513817@2529811@2547686@2570265@2585318@2600371@2618246@2637062@2659641@2682220@2693510@2702918@2715148@2733964@2748076@2769715@2781004@2792294@2804524@2822399@2835571@2858150@2869439@2880729@2896723@2913657@2925887@2939059@2955993@2969164@2987980@3003033@3013382@3035961@3047251@3056659@3068889@3087705@3099935@3122515@3134745@3145094@3156383@3176140@3188371@3206246@3221299@3238233@3255167@3278687@3292799@3309734@3330431@3344543@3366182@3384057@3399110@3416985@3432979@3454617@3485663@3506361@3519532@3543052@3599500@3612671@3653126@3719923'
+  Duration: 84
+  PreviewTime: 40
+  StartTime: 0

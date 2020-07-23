@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012458177570}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012458177570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010115198632}
+  - 82: {fileID: 82000010515239118}
+  - 114: {fileID: 114000013153307176}
+  m_Layer: 0
+  m_Name: Rolemusic_LaLaTriroriro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010115198632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.478413, y: 0.45829728, z: -19.896593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &82000010515239118
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bfc1be3ef283fe84ca252f0cac3d20a5, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000013153307176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012458177570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f73aedeb08ab344b7986a979d1d41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: Rolemusic_LaLaTriroriro
+  Tempo: 128.08
+  Beats: '@179692@199449@206035@211679@222028@232377@250252@255897@263423@272831@289766@297292@303878@313286@332102@339628@346214@365971@371615@377260@386668@397017@415833@422419@429004@438412@456287@468518@479807@497683@504268@510854@530611@537196@542841@553190@562598@580473@587999@593644@603993@621868@628454@635039@644447@661382@668908@675494@694310@701836@707481@716889@726297@744172@750758@758284@768633@784627@797798@809087@827903@834489@841075@859891@866476@873062@882470@892819@910694@917279@923865@934214@953030@958675@965260@975609@993484@1005715@1024531@1032057@1038643@1047110@1057459@1075334@1082860@1088505@1098854@1116729@1123315@1130841@1141190@1169414@1190111@1211750@1232447@1240915@1253145@1273843@1285132@1295481@1304889@1316179@1325587@1335935@1355692@1362278@1379212@1388620@1398969@1409318@1417785@1430956@1439423@1446950@1451654@1458239@1471411@1481759@1492108@1502457@1522214@1542911@1562668@1573958@1580543@1586188@1604063@1615353@1625702@1636051@1647340@1656748@1668038@1685913@1692499@1700025@1707551@1716019@1727308@1737657@1748947@1759295@1765881@1772467@1779052@1789401@1800691@1811039@1819507@1830796@1843027@1853375@1859961@1872191@1883481@1902297@1908883@1915468@1925817@1943692@1949337@1956863@1967212@1986028@1992614@2000140@2018015@2023660@2029305@2039654@2050003@2067878@2074463@2081049@2090457@2108332@2115859@2122444@2132793@2150668@2160076@2165721@2183596@2190182@2195827@2205235@2219347@2233459@2240044@2246630@2256038@2273913@2280499@2288025@2297433@2314367@2323775@2328479@2348236@2353881@2360467@2369875@2380223@2399039@2405625@2412211@2422559@2439494@2445139@2453606@2463014@2480889@2487475@2494060@2512876@2519462@2526047@2536396@2546745@2564620@2571206@2577791@2588140@2606015@2612601@2620127@2629535@2647411@2654937@2662463@2679398@2685983@2692569@2701977@2712326@2728319@2734905@2741491@2751839@2768774@2776300@2783827@2794175@2811110@2818636@2842156@2863795@2874143@2884492@2894841@2906131@2917420@2926828@2937177@2947526@2958815@2966342@2973868@2980454@2987980@2999270@3008678@3015263@3021849@3031257@3041606@3051955@3058540@3068889@3081119@3090527@3097113@3103699@3110284@3121574@3132863@3143212@3154502@3163910@3174259@3184607@3194956@3201542@3213772@3225062@3234470@3256108@3262694@3275865@3289036@3298444@3308793@3320083@3338899@3346425@3353011@3361478@3372767@3382175@3387820@3393465@3403814@3412281@3424511@3431097@3442387@3464966@3474374@3485663'
+  Duration: 79
+  PreviewTime: 7
+  StartTime: 0
